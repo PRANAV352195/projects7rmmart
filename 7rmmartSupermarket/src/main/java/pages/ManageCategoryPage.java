@@ -12,7 +12,7 @@ import utilities.WaitUtility;
 
 public class ManageCategoryPage {
 
-	WebDriver driver;
+	public WebDriver driver;
 
 	public ManageCategoryPage(WebDriver driver) {
 

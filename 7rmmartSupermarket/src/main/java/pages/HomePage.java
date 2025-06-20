@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 	
-WebDriver driver;
+  public WebDriver driver;
 	
 	public HomePage(WebDriver driver) {
 		

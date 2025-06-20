@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-18T22:15:20 IST" name="RegressionTesting" finished-at="2025-06-18T22:15:27 IST" duration-ms="6571">
+  <suite started-at="2025-06-19T21:58:06 IST" name="CrossBrowserTesting" finished-at="2025-06-19T21:58:17 IST" duration-ms="11531">
     <groups>
-      <group name="regression">
-        <method signature="LoginTest.verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@126253fd]" name="verifyTheUserIsAbleToLoginUsingValidCredentials" class="testScript.LoginTest"/>
-      </group> <!-- regression -->
     </groups>
-    <test started-at="2025-06-18T22:15:20 IST" name="ChromeTest" finished-at="2025-06-18T22:15:27 IST" duration-ms="6571">
-      <class name="testScript.LoginTest">
-        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@126253fd]" started-at="2025-06-18T22:15:20 IST" name="initializeBrowser" finished-at="2025-06-18T22:15:24 IST" duration-ms="3599" status="PASS">
+    <test started-at="2025-06-19T21:58:06 IST" name="ChromeTest" finished-at="2025-06-19T21:58:12 IST" duration-ms="6076">
+      <class name="testScript.ManageNewsTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageNewsTest@58e1d9d]" started-at="2025-06-19T21:58:06 IST" name="initializeBrowser" finished-at="2025-06-19T21:58:09 IST" duration-ms="2962" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,22 +18,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@126253fd]" started-at="2025-06-18T22:15:24 IST" name="verifyTheUserIsAbleToLoginUsingValidCredentials" description="Verifying the user is able to login using valid credentials" finished-at="2025-06-18T22:15:27 IST" duration-ms="2901" status="PASS">
+        <test-method signature="verifyTheUserIsAbleToAddMangeNews()[pri:0, instance:testScript.ManageNewsTest@58e1d9d]" started-at="2025-06-19T21:58:09 IST" name="verifyTheUserIsAbleToAddMangeNews" description="Verifying the user is able to add manage news" finished-at="2025-06-19T21:58:12 IST" duration-ms="3061" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTheUserIsAbleToLoginUsingValidCredentials -->
-        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testScript.LoginTest@126253fd]" started-at="2025-06-18T22:15:27 IST" name="driverQuit" finished-at="2025-06-18T22:15:27 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- verifyTheUserIsAbleToAddMangeNews -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testScript.ManageNewsTest@58e1d9d]" started-at="2025-06-19T21:58:12 IST" name="driverQuit" finished-at="2025-06-19T21:58:12 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTheUserIsAbleToLoginUsingValidCredentials status=SUCCESS method=LoginTest.verifyTheUserIsAbleToLoginUsingValidCredentials()[pri:0, instance:testScript.LoginTest@126253fd] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTheUserIsAbleToAddMangeNews status=SUCCESS method=ManageNewsTest.verifyTheUserIsAbleToAddMangeNews()[pri:0, instance:testScript.ManageNewsTest@58e1d9d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
-      </class> <!-- testScript.LoginTest -->
+      </class> <!-- testScript.ManageNewsTest -->
     </test> <!-- ChromeTest -->
-  </suite> <!-- RegressionTesting -->
+    <test started-at="2025-06-19T21:58:12 IST" name="EdgeTest" finished-at="2025-06-19T21:58:17 IST" duration-ms="4979">
+      <class name="testScript.ManageNewsTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.ManageNewsTest@50029372]" started-at="2025-06-19T21:58:12 IST" name="initializeBrowser" finished-at="2025-06-19T21:58:15 IST" duration-ms="2560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsAbleToAddMangeNews()[pri:0, instance:testScript.ManageNewsTest@50029372]" started-at="2025-06-19T21:58:15 IST" name="verifyTheUserIsAbleToAddMangeNews" description="Verifying the user is able to add manage news" finished-at="2025-06-19T21:58:17 IST" duration-ms="2407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToAddMangeNews -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testScript.ManageNewsTest@50029372]" started-at="2025-06-19T21:58:17 IST" name="driverQuit" finished-at="2025-06-19T21:58:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheUserIsAbleToAddMangeNews status=SUCCESS method=ManageNewsTest.verifyTheUserIsAbleToAddMangeNews()[pri:0, instance:testScript.ManageNewsTest@50029372] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testScript.ManageNewsTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- CrossBrowserTesting -->
 </testng-results>

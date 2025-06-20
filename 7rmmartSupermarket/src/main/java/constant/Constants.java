@@ -8,7 +8,7 @@ public class Constants {
 	public static final String CONFIGFILE = System.getProperty("user.dir")+"\\src\\main\\resources\\config.properties";
 	public static final String BIKEIMAGE = System.getProperty("user.dir")+"\\src\\test\\resources\\imagesBIKE.jfif";
 	
-//	Assertion images
+//	Assertion messages
 	
 	public static final String LOGIN_INCORRECT_PASSWORD="Home page is loded with incorrect password";
 	public static final String LOGIN_VALID_CREDENTIALS="Home page is not loded with valid credentials";

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ManageNewsPage {
 	
-	WebDriver driver;
+		public WebDriver driver;
 	
 	public ManageNewsPage(WebDriver driver) {
 		

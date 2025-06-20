@@ -13,8 +13,8 @@ public class ExtendReportUtility {
 		reporter.config().setReportName("Demo Project");
 		extentReports.attachReporter(reporter);
 		extentReports.setSystemInfo("Organization", "Obsqura");
-		extentReports.setSystemInfo("Name", "Shilpa");
-		extentReports.setSystemInfo("Name", "Athira");
+		extentReports.setSystemInfo("Name", "Pranav");
+		extentReports.setSystemInfo("Name", "Pranav");
 		return extentReports;
 	}
 	

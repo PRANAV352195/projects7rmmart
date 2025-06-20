@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ManageFooterPage {
 	
-	WebDriver driver;
+	public WebDriver driver;
 
 	public ManageFooterPage(WebDriver driver) {
 
