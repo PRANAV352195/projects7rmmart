@@ -1,4 +1,4 @@
-
+ 
 package testScript;
 
 import java.io.FileInputStream;
@@ -26,7 +26,7 @@ public class Base {
 	public ScreenShortUtility scrshot;
 
 	
-	@BeforeMethod(alwaysRun = true)
+//	@BeforeMethod(alwaysRun = true)
 	@Parameters("browser")
 
 	public void initializeBrowser(String browser) throws Exception {
@@ -63,7 +63,7 @@ public class Base {
 		driver.manage().window().maximize();
 	}
 
-	@AfterMethod(alwaysRun = true)
+//	@AfterMethod(alwaysRun = true)
 
 	public void driverQuit(ITestResult iTestResult) throws IOException{
 		

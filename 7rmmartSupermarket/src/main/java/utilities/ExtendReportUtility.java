@@ -17,7 +17,11 @@ public class ExtendReportUtility {
 		extentReports.setSystemInfo("Name", "Pranav");
 		return extentReports;
 	}
+	//for detailed html report to generate html report
+	//in pom file avenstackdependency  extend report and extend spark report it is uded for test outut folder 
+	//
 	
 	
-
+	
+	
 }

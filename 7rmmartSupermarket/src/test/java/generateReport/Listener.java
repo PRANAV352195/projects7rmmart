@@ -17,7 +17,7 @@ public class Listener implements ITestListener{
 	ExtentReports extent = ExtendReportUtility.createExtentReports();
 	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
 
-	public void onTestStart(ITestResult result) {
+	public void onTestStart(ITestResult result) {// IT INVOKE BEFORE A TEST EXECUTION AND IT FETCHES THE METHOD AND ADDED TO REPORT
 
 		ITestListener.super.onTestStart(result);
 		test = extent.createTest(result.getMethod().getMethodName());
@@ -89,7 +89,7 @@ public class Listener implements ITestListener{
 		ITestListener.super.onStart(context);
 	}
 
-	public void onFinish(ITestContext context) {
+	public void onFinish(ITestContext context) {// to generate a report using a flush method
 
 		ITestListener.super.onFinish(context);
 		extent.flush();

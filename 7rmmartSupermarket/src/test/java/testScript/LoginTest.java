@@ -18,8 +18,8 @@ public class LoginTest extends Base{
 	
 	public void verifyTheUserIsAbleToLoginUsingValidCredentials() throws IOException {
 	
-		String user_name=ExcelUtility.getStringData(1, 0, "loginpage");
-		String password=ExcelUtility.getStringData(1,1, "loginpage");
+		String user_name=ExcelUtility.getStringData(0, 1, "loginpage");
+		String password=ExcelUtility.getStringData(1,0, "loginpage");
 		LoginPage login_page=new LoginPage(driver);
 		login_page.enterUserName(user_name).enterPassword(password);
 		home_page=login_page.clickTheSignInButton();
